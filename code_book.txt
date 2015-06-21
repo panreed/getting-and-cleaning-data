@@ -1,17 +1,29 @@
-This code book describes the meaning of the names of the variables found in the final tidy data sets. Those data are obtained from the analysis of raw time domain signals from the raw signals of 3-axial accelerometer and gyroscope of smart phones test subjects wear. 
+This code book describes the meaning of the names of the variables found in the final tidy data sets. 
+Those data are obtained from the analysis of raw time domain signals from the raw signals of 3-axial 
+accelerometer and gyroscope of smart phones test subjects wear. 
 
-In the final tidy data sets, there are 66 variables corresponding to two types of data, the mean and standard deviation of the measurements, so there are 33 means (with mean() in the variable name) and 33 standard deviations (with std() in the variable name).
+In the final tidy data sets, there are 66 variables corresponding to two types of data, the mean and 
+standard deviation of the measurements, so there are 33 means (with mean() in the variable name) and 
+33 standard deviations (with std() in the variable name).
 
 The naming convention used here:
 Example name:
 tBodyAcc-mean()-X
 tBodyAccMag-mean()
 
-The first lower case letter is either “t” for time domain measurements, or “f” for frequency domain information. Frequency domain information is obtained by taking the Fast Fourier Transform (FFT) of the signals.
+The first lower case letter is either â€œtâ€ for time domain measurements, or â€œfâ€ for frequency domain 
+information. Frequency domain information is obtained by taking the Fast Fourier Transform (FFT) of 
+the signals.
 
-The second part of the name indicates whether the measured acceleration is attributed to body acceleration or the gravity of the earth. These two situations are distinguished by “…Body…” or “…Gravity…” immediately after the first letter.
+The second part of the name indicates whether the measured acceleration is attributed to body acceleration 
+or the gravity of the earth. These two situations are distinguished by â€œâ€¦Bodyâ€¦â€ or â€œâ€¦Gravityâ€¦â€ immediately 
+after the first letter.
 
-The third part of the name indicates the physical quantity being measured, whether it is a linear acceleration, angular velocity, or jerk. Distinguished by “…Acc…” for acceleration (linear), “…AccJerk…” for acceleration jerk, “…Gyro…” for angular motion, “…GyroJerk…” for angular jerk.
+The third part of the name indicates the physical quantity being measured, whether it is a linear acceleration,
+angular velocity, or jerk. Distinguished by â€œâ€¦Accâ€¦â€ for acceleration (linear), â€œâ€¦AccJerkâ€¦â€ for acceleration jerk,
+â€œâ€¦Gyroâ€¦â€ for angular motion, â€œâ€¦GyroJerkâ€¦â€ for angular jerk.
 
-A vector physical quantity can be decomposed into 3 components in the physical world, and it also has its magnitude. For the value of a single component, a “X”, “Y” or “Z” in the ending of the name indicates which component is being measured. For magnitude of the vector, the name contains a “Mag” just before the “-".
+A vector physical quantity can be decomposed into 3 components in the physical world, and it also has its 
+magnitude. For the value of a single component, a â€œXâ€, â€œYâ€ or â€œZâ€ in the ending of the name indicates which 
+component is being measured. For magnitude of the vector, the name contains a â€œMagâ€ just before the â€œ-".
 
